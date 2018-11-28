@@ -1,0 +1,20 @@
+1. 数据库服务器
+   10.4.208.84
+   root
+   QtTryNY8yAzOBVqSL335
+
+2. git环境
+   http://rddgit.changhong.com/ZT/ocss-web.git
+   http://rddgit.changhong.com/ZT/ocss.git
+
+
+3. ecmp的地址
+   http://10.4.208.85/config-center-web/login
+   admin
+   password1
+
+   
+4. ecmp业务功能
+   http://10.4.208.85/basic-web/index
+   654321
+   123456
