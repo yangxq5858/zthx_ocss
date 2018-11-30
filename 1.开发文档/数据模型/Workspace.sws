@@ -4,8 +4,8 @@
 
 <Workspace>
 	<Local Expanded="Yes">
-		<Model ID="{510F8765-CC64-4CFD-87A9-BEDF1867B552}" Name="ocss_price" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="ocss_prices.pdm"/>
-		<Model Expanded="Yes" ID="{F18BFA14-DC38-4809-9DF8-9C63471A0099}" Name="ocss_orders" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="ocss_orders.pdm"/>
+		<Model Expanded="Yes" ID="{510F8765-CC64-4CFD-87A9-BEDF1867B552}" Name="ocss_price" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="ocss_prices.pdm"/>
+		<Model ID="{F18BFA14-DC38-4809-9DF8-9C63471A0099}" Name="ocss_orders" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="ocss_orders.pdm"/>
 		<Model ID="{0E2420D2-DB9B-4228-86FB-2C805F9112D4}" Name="ocss_storages" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="ocss_storages.pdm"/>
 		<Model Expanded="Yes" ID="{220FF8D5-54B9-498F-8296-96560707AC0E}" Name="ocss_credits" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="ocss_credits.pdm"/>
 	</Local>
