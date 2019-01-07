@@ -1,0 +1,25 @@
+12月17日 2小时
+12月13日 3小时
+
+
+
+SELECT userinfo_id,b.User_Name,SUM(a.CostTime) 小时 FROM [CWA].[dbo].[JobWeekly] a,dbo.UserInfo b
+  WHERE a.UserInfo_Id = b.id AND
+        a.WeeklyTime >= '2018-12-01' AND a.WeeklyTime <= '2018-12-31' AND
+        a.Project_Id = 55
+ GROUP BY userinfo_id,b.User_Name
+
+
+ SELECT a.Project_Id,c.Project_Name,userinfo_id,b.User_Name,SUM(a.CostTime) /8 天 FROM 
+        [CWA].[dbo].[JobWeekly] a,
+		dbo.UserInfo b,
+		[CWA].[dbo].[ProjectManagement] c
+  WHERE a.UserInfo_Id = b.id AND
+        a.WeeklyTime >= '2018-12-01' AND a.WeeklyTime <= '2018-12-31' AND
+		a.Project_Id = c.ID 
+        and a.Project_Id = 55
+ GROUP BY a.Project_Id,c.Project_Name,userinfo_id,b.User_Name
+ ORDER BY C.Project_Name,a.UserInfo_Id 
+
+
+ select * from [CWA].[dbo].[ProjectManagement] c 
